@@ -1,2 +1,35 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgb(225, 239, 243);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid red 2px;
+}
+
+.col-one {
+    border: solid blue 2px;
+    width: 600px;
+}
+
+.col-two {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    width: 300px;
+    border: solid green 2px;
+}
